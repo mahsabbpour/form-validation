@@ -1,0 +1,109 @@
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+body{
+    background: #D4D3DD!important;
+   
+}
+
+#signUpForm{
+    min-height: 500px !important;
+    // border: 1px solid #9796f0 !important;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
+    border-radius: 25px;
+    overflow: hidden;
+@media screen  and (max-width:992px){
+    
+    margin: 200px auto !important;
+}
+}
+
+#forms , #sign{
+    height: 500px !important;
+    transition: .4s;
+}
+
+#forms{
+    >*{
+        transition: .4s !important;
+    }
+}
+
+#sign{
+    background: #FEAC5E;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4BC0C8, #C779D0, #FEAC5E);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+ul {
+    height: 45px !important;
+
+    li {
+        border-radius: 50%;
+        transition: .4s;
+        list-style-type: none !important;
+
+        &:hover {
+            background: #C779D0;
+
+            a {
+                color: white;
+            }
+        }
+
+
+
+        a {
+            color: #C779D0;
+        }
+    }
+}
+
+
+button {
+    height: 40px;
+    background: #EFEFBB;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #D4D3DD, #EFEFBB);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: gray !important;
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border-radius: 40px !important;
+    font-weight: 900 !important;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, .2), 0 10px 10px rgba(0, 0, 0, .2);
+    outline: none !important;
+
+
+}
+label{
+    font-weight: 500;
+   
+}
+
+
+input {
+    writing-mode: horizontal-tb !important;
+    text-indent: 10px !important;
+    color: #9796f0;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    margin: 0em;
+    box-shadow: 0 7px 15px rgba(0, 0, 0, .15), 0 5px 5px rgba(0, 0, 0, .15);
+    border-width: 0px !important;
+    border-style: inset;
+    border-image: initial;
+    outline: none !important;
+    height: 35px !important;
+}
